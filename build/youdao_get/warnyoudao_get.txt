@@ -1,0 +1,15 @@
+missing module named 'org.python' - imported by pickle, /home/ease/python/py_lesson/gd_plugin/youdao_get.py, xml.sax
+missing module named ce - imported by os, /home/ease/python/py_lesson/gd_plugin/youdao_get.py
+excluded module named _frozen_importlib - imported by importlib, importlib.abc, /home/ease/python/py_lesson/gd_plugin/youdao_get.py
+missing module named _frozen_importlib_external - imported by importlib._bootstrap, importlib, importlib.abc, /home/ease/python/py_lesson/gd_plugin/youdao_get.py
+missing module named _winreg - imported by platform, /home/ease/python/py_lesson/gd_plugin/youdao_get.py
+missing module named java - imported by platform, /home/ease/python/py_lesson/gd_plugin/youdao_get.py
+missing module named 'java.lang' - imported by platform, /home/ease/python/py_lesson/gd_plugin/youdao_get.py, xml.sax._exceptions
+missing module named vms_lib - imported by platform, /home/ease/python/py_lesson/gd_plugin/youdao_get.py
+missing module named msvcrt - imported by subprocess, getpass, /home/ease/python/py_lesson/gd_plugin/youdao_get.py
+missing module named _winapi - imported by subprocess, /home/ease/python/py_lesson/gd_plugin/youdao_get.py
+missing module named winreg - imported by platform, mimetypes, urllib.request, /home/ease/python/py_lesson/gd_plugin/youdao_get.py
+missing module named _dummy_threading - imported by dummy_threading, /home/ease/python/py_lesson/gd_plugin/youdao_get.py
+missing module named nt - imported by os, ntpath, shutil, /home/ease/python/py_lesson/gd_plugin/youdao_get.py
+missing module named org - imported by copy, /home/ease/python/py_lesson/gd_plugin/youdao_get.py
+missing module named _scproxy - imported by urllib.request
