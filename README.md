@@ -18,7 +18,6 @@ GoldenDict 是 Linux 环境下一款整合翻译软件，可以把互联网上�
 
 ### firefox 网页取词效果
 
-<<<<<<< HEAD
 ![取词效果1](./images/1.png)
 
 ### vscode 单字取词效果
@@ -28,17 +27,6 @@ GoldenDict 是 Linux 环境下一款整合翻译软件，可以把互联网上�
 ### vscode 代码编辑器整段取词效果
 
 ![取词效果2](./images/2.png)
-=======
-    ![取词效果1](./images/1.png)
-
-### vscode 单字取词效果
-
-    ![取词效果](./images/4.png)
-
-### vscode 代码编辑器整段取词效果
-
-    ![取词效果2](./images/2.png)
->>>>>>> 1da5022cc23fc59991923cf9aba8028e866ccc7d
 
 ## 安装
 
