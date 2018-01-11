@@ -12,7 +12,10 @@ from sys import argv
 
 
 if __name__ == "__main__":
-    d = argv[1]
+    word = argv[1]
+    word = word.replace("/","／")       # url 方式要过滤掉 / 换成全角
+    
+    d = word
     #d = 'This is a mixin class that helps with HTTP authentication, both to the remote host and to a proxy. password_mgr, if given, should be something that is compatible with HTTPPasswordMgr; refer to section HTTPPasswordMgr Objects for information on the interface that must be supported. If passwd_mgr also provides is_authenticated and update_authenticated methods (see HTTPPasswordMgrWithPriorAuth Objects), then the handler will use the is_authenticated result for a given URI to determine whether or not to send authentication credentials with the request. If is_authenticated returns True for the URI, credentials are sent. If is_authenticated is False, credentials are not sent, and then if a 401 response is received the request is re-sent with the authentication credentials. If authentication succeeds, update_authenticated is called to set is_authenticated True for the URI, so that subsequent requests to the URI or any of its super-URIs will automatically include the authentication credentials. '    
     #d = urllib.parse.quote(d)   
     #d = 'test'

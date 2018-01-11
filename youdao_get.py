@@ -31,14 +31,14 @@ from sys import argv
 
 url = 'http://dict.youdao.com/w/eng/{}/#keyfrom=dict2.index'
 word = argv[1]
+word = word.replace("/","／")       # url 方式要过滤掉 / 换成全角
 word = urllib.parse.quote(word)     # 这里处理中文，否则 输入中文会有问题。
-
 turl = url.format(word)
 #turl = urllib.parse.quote(turl, safe='/:?=')
 
 with request.urlopen(turl) as f:
     data = f.read()                 # 读取数据 注意数据返回 bytes
-    selector = etree.HTML(data)     # 生成 selector  对象
+    selector = etree.HTML(data)     # 生成 selector  对象, 利用 xpath 获得内容
     content = selector.xpath("//div[@id='results-contents']")[0]
     content = etree.tostring(content, encoding='utf-8',method='html')
                                     # 这里利用 etree.tostring() 转换为字符串参考：
