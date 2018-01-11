@@ -15,7 +15,7 @@ GoldenDict 是 Linux 环境下一款整合翻译软件，可以把互联网上�
  * /dist/            文件夹下为打包好的插件，如果对于linux 不熟悉，直接拷贝里面的单独文件即可。
  * 命令行单词翻译      命令行输入`$ ./youdao_get.py coroutine` 返回html结果
  * 命令行整段翻译      命令行输入`$ ./youdao_post.py "``cat test/text.txt ``"` 注意所有符号
- * get接口整段翻译     命令行输入$ ./youdao_get.py "\`cat test/text.txt \`"  注意所有符号
+ * get接口整段翻译     命令行输入<code>$ ./youdao_get.py "\`cat test/text.txt \`"</code>  注意所有符号
 
 ## 效果展示
 
