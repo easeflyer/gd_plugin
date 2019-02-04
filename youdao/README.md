@@ -3,7 +3,7 @@
 ## 最新更新
 
 **2019.2.4**  
-用 requests 对有道插件进行了重写。requests 可读性更好，操作更加方便。 同时对结果样式做了微调，如果翻译结果有图片，则对图片进行 float:right 不影响结果读取。
+用 requests 对有道插件进行了重写。requests 可读性更好，操作更加方便。 同时对结果样式做了微调，如果翻译结果有图片，则对图片进行 float:right 不影响结果读取。requests 版本另外保存为yd_get.py 熟悉 python 的同学，可以直接使用。
 
 ## 概述
 
@@ -42,10 +42,13 @@ GoldenDict 是 Linux 环境下一款整合翻译软件，可以把互联网上�
 ### 熟悉 Linux & Python 环境的用户
 
 1. 先安装 Python3 环境，本插件代码是运行在 python3.5.x 下的。
-2. 打开youdao_get.py,youdao_post.py源代码，根据需要安装所需要的第三方包。
-3. 注意 Linux 默认 python 命令运行的是 python2.x python3 运行的是 python3,安装第三方包也要用 pip3
-4. 把 youdao_get.py 和 youdao_post.py 放置到自己的可执行文件目录。sudo chmod 755 youdao_get.py 赋予可执行权限。
-5. 最后按照下图配置GoldenDict，全部安装完毕
+1. 打开youdao_get.py,youdao_post.py源代码，根据需要安装所需要的第三方包。
+1. 注意 Linux 默认 python 命令运行的是 python2.x python3 运行的是 python3,安装第三方包也要用 pip3
+1. 把 youdao_get.py 和 youdao_post.py 放置到自己的可执行文件目录。sudo chmod 755 youdao_get.py 赋予可执行权限。
+1. 最后按照下图配置GoldenDict，全部安装完毕
+
+更新：  
+1. 2019.2.4 用 requests 改写的代码 yd_get.py ，可以直接替代 youdao_get.py 使用。
 
 ![配置图](./images/3.png)    
 
