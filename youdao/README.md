@@ -3,7 +3,8 @@
 ## 最新更新
 
 **2019.2.4**  
-用 requests 对有道插件进行了重写。requests 可读性更好，操作更加方便。 同时对结果样式做了微调，如果翻译结果有图片，则对图片进行 float:right 不影响结果读取。requests 版本另外保存为yd_get.py 熟悉 python 的同学，可以直接使用。
+  - 用 requests 对有道插件进行了重写。requests 可读性更好，操作更加方便。 同时对结果样式做了微调，如果翻译结果有图片，则对图片进行 float:right 不影响结果读取。requests 版本另外保存为yd_get.py 熟悉 python 的同学，可以直接使用。
+  - develop 分支删除了编译相关的文件。如果熟悉 python 可以直接clone 此分支。或者直接下载yd_get.py 安装依赖，添加执行权限即可。参考下面的说明。
 
 ## 概述
 
